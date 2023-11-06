@@ -16,7 +16,7 @@ standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
 def predict():
     Fuel_Type_Diesel=0
-    if request.method == 'POST':
+    if request.method == 'POST':ASxqdcexas
         Year = int(request.form['Year'])
         Present_Price=float(request.form['Present_Price'])
         Kms_Driven=int(request.form['Kms_Driven'])
